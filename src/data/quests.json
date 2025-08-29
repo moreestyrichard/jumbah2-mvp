@@ -4,7 +4,7 @@
     "title": "Gaya Street Explorer",
     "district": "kk",
     "type": "qr",
-    "image": "https://via.placeholder.com/800x500?text=Gaya+Street+Explorer",
+    "image": "https://source.unsplash.com/800x500/?gaya%20street%20kota%20kinabalu",
     "reward": {
       "type": "stamp",
       "name": "Gaya Scout"
@@ -17,7 +17,7 @@
     "title": "Seaside Sunset Snap",
     "district": "kk",
     "type": "photo",
-    "image": "https://via.placeholder.com/800x500?text=Tanjung+Aru+Sunset",
+    "image": "https://source.unsplash.com/800x500/?tanjung%20aru%20sunset",
     "reward": {
       "type": "stamp",
       "name": "Sunset Chaser"
@@ -29,7 +29,7 @@
     "title": "Market Hunt",
     "district": "kk",
     "type": "qr",
-    "image": "https://via.placeholder.com/800x500?text=Filipino+Market",
+    "image": "https://source.unsplash.com/800x500/?filipino%20market%20sabah",
     "reward": {
       "type": "stamp",
       "name": "Market Maven"
@@ -42,7 +42,7 @@
     "title": "Sabah Phrase Challenge",
     "district": "kk",
     "type": "audio",
-    "image": "https://via.placeholder.com/800x500?text=Phrase+Challenge",
+    "image": "https://source.unsplash.com/800x500/?sabah%20language",
     "reward": {
       "type": "stamp",
       "name": "Language Learner"
@@ -54,7 +54,7 @@
     "title": "Caf\u00e9 Art Quest",
     "district": "kk",
     "type": "photo",
-    "image": "https://via.placeholder.com/800x500?text=Cafe+Art",
+    "image": "https://source.unsplash.com/800x500/?latte%20art",
     "reward": {
       "type": "stamp",
       "name": "Latte Artist"
@@ -66,7 +66,7 @@
     "title": "Heritage Trivia",
     "district": "kk",
     "type": "trivia",
-    "image": "https://via.placeholder.com/800x500?text=Heritage+Trivia",
+    "image": "https://source.unsplash.com/800x500/?sabah%20heritage",
     "reward": {
       "type": "stamp",
       "name": "History Buff"
@@ -88,7 +88,7 @@
     "title": "Foodie Badge",
     "district": "kk",
     "type": "qr",
-    "image": "https://via.placeholder.com/800x500?text=Foodie+Badge",
+    "image": "https://source.unsplash.com/800x500/?sabah%20food",
     "reward": {
       "type": "badge",
       "name": "KK Foodie"
