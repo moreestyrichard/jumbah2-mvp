@@ -1,6 +1,7 @@
 import React from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route, Link, useLocation } from 'react-router-dom'
 import Home from './pages/Home.jsx'
+import Login from './pages/Login.jsx'
 import District from './pages/District.jsx'
 import QuestBoard from './pages/QuestBoard.jsx'
 import Quest from './pages/Quest.jsx'
@@ -8,18 +9,23 @@ import Stampbook from './pages/Stampbook.jsx'
 import Chatbot from './pages/Chatbot.jsx'
 
 export default function App() {
+  const location = useLocation()
+
   return (
     <div className="app">
-      <nav className="nav">
-        <Link to="/" className="logo">🐘 JumBah</Link>
-        <div className="nav-links">
-          <Link to="/stampbook">Stampbook</Link>
-          <Link to="/chat">Chat</Link>
-        </div>
-      </nav>
+      {location.pathname !== '/' && (
+        <nav className="nav">
+          <Link to="/home" className="logo">🐘 JumBah</Link>
+          <div className="nav-links">
+            <Link to="/stampbook">Stampbook</Link>
+            <Link to="/chat">Chat</Link>
+          </div>
+        </nav>
+      )}
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/district/:id" element={<District />} />
         <Route path="/district/:id/quests" element={<QuestBoard />} />
         <Route path="/quest/:id" element={<Quest />} />
